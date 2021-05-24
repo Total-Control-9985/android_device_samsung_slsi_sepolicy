@@ -1,6 +1,8 @@
 # hal_lineage_fastcharge_default
 
-set_prop(hal_lineage_fastcharge, vendor_fastcharge_prop)
+# fast charge undefined
 
-allow hal_lineage_fastcharge_default sysfs_sec_switch:dir search;
-allow hal_lineage_fastcharge_default sysfs_sec_switch_writable:file rw_file_perms;
+# ERROR 'unknown type hal_lineage_fastcharge'
+#set_prop(hal_lineage_fastcharge, vendor_fastcharge_prop)
+#allow hal_lineage_fastcharge_default sysfs_sec_switch:dir search;
+#allow hal_lineage_fastcharge_default sysfs_sec_switch_writable:file rw_file_perms;
